@@ -15,8 +15,10 @@ function typeOfNumber(a) {
     if (a % i === 0 && a < 1000) {
       return `Число ${a} - составное число`;
     }
+
+    return `Число ${a} - простое число`;
   }
-  console.log(`Число ${a} - простое число`);
+
   return a;
 }
 
