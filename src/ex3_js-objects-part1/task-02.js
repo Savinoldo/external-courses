@@ -4,4 +4,4 @@ function showValues(obj) {
   return undefined;
 }
 
-module.exports = showValues();
+module.exports = showValues;
