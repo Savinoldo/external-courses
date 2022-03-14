@@ -1,4 +1,4 @@
 function objectCopy(obj) {
-  return Object.assign(obj);
+  return { ...obj };
 }
-module.exports = objectCopy();
+module.exports = objectCopy;
