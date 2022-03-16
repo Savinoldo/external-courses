@@ -1,20 +1,10 @@
-function propertyCheck(obj, a) {
-  const obj1 = Object.create(obj);
-  let newObj = obj;
-
-  if (a in obj1 && !(a in obj)) {
-    newObj = obj1;
-    newObj[a] = 'new';
-    return newObj;
+function propertyCheck(a, obj) {
+  if (obj.hasOwnProperty(a)) {
+    return obj;
   }
 
-  if (a in obj) {
-    return newObj;
-  }
-
-  newObj[a] = 'new';
-
-  return newObj;
+  obj[a] = 'new'; // eslint-disable-line
+  return obj;
 }
 
-module.exports = propertyCheck();
+module.exports = propertyCheck;
