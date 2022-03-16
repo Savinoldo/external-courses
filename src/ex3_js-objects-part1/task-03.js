@@ -1,11 +1,5 @@
-function propertyCheck(obj, a) {
-  for (const key in obj) {//eslint-disable-line
-    if (key === a && key in obj) {
-      return true;
-    }
-  }
-
-  return false;
+function propertyCheck(a, obj) {
+  return obj.hasOwnProperty(a);
 }
 
 module.exports = propertyCheck();
