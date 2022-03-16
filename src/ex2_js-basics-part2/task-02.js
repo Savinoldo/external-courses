@@ -3,6 +3,7 @@ function countElements(array) {
     console.log(array[i]);
   }
   console.log(`Общее число элементов массива:${array.length}`);
+
   return undefined;
 }
 

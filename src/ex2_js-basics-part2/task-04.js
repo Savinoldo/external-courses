@@ -7,5 +7,4 @@ function sameElements(arr) {
 
   return true;
 }
-
 module.exports = sameElements();
