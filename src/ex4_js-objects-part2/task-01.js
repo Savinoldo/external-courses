@@ -8,4 +8,5 @@ function prototypePropertyCheck(propertyName, object) {
   }
   return undefined;
 }
+
 module.exports = prototypePropertyCheck;
