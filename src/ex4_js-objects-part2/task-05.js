@@ -6,4 +6,4 @@ function findString(str, str1) {
   return true;
 }
 
-module.exports = findString();
+module.exports = findString;
