@@ -1,0 +1,20 @@
+div {
+    background-color: #ff0000;
+    width: 100%;
+  }
+  
+  table {
+    margin-top: 20px;
+  }
+  
+  img {
+    margin-top: 20px;
+    width: 600px;
+    height: 350px;
+  }
+  
+  a {
+    display: block;
+    margin-top: 20px;
+  }
+  
