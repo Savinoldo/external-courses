@@ -6,5 +6,4 @@ function somePolyfill(array, callback) {
   }
   return false;
 }
-
 module.exports = somePolyfill;
