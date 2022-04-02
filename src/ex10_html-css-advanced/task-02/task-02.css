@@ -1,0 +1,125 @@
+.field {
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+}
+
+label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    transition: all 0.2s linear;
+    color: #999;
+    font-size: 14px;
+
+}
+
+input {
+    margin-top: -5px;
+    border: 1px solid #999;
+    padding-top: 10px;
+}
+
+input:invalid+label {
+    top: 3px;
+    opacity: 0;
+}
+
+input:valid+label {
+    opacity: 1;
+    top: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus+label {
+    color: #33a;
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+.main-field {
+    position: relative;
+    font-size: 0;
+}
+
+.Price {
+    width: 80px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 50px;
+    font-size: 20px;
+}
+
+.location {
+    margin-left: 87px;
+}
+
+.specific_location {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.title {
+    padding-bottom: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+
+textarea:invalid+label {
+    top: 3px;
+    opacity: 0;
+}
+
+textarea:valid+label {
+    opacity: 1;
+    top: 0;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea:focus+label {
+    color: #33a;
+}
+
+.field_1 {
+    position: relative;
+}
+
+textarea {
+    min-width: 380px;
+    max-width: 380px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 20px;
+}
+
+.description {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 2px;
+}
