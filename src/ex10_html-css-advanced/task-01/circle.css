@@ -1,0 +1,39 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.content {
+    display: flex;
+}
+
+.square:nth-child(n + 2) {
+    margin-left: 500px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    animation-name: circle_move;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes circle_move {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 500px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}

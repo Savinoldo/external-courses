@@ -1,0 +1,60 @@
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    animation-name: loader;
+    position: relative;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    outline: 10px solid #cd5c5c;
+    display: inline-block;
+    background-color: #cd5c5c;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+        outline: 0px solid #cd5c5c;
+    }
+
+    50% {
+        transform: rotate(360deg);
+        outline: 220px solid #cd5c5c;
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+        outline: -220px solid #cd5c5c;
+    }
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.loading {
+    font-weight: bold;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 80px;
+    clip-path: inset(0 3ch 0 0);
+    animation: loading 1s steps(4) infinite;
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+
+@keyframes loading {
+    to {
+        clip-path: inset(0 -1ch 0 0);
+    }
+}
