@@ -1,0 +1,23 @@
+.border_blocks {
+    display: flex;
+}
+
+.first_border {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+.second_border {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 0px 2px green;
+    margin-left: 20px;
+}
+
+.third_border {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    outline: 2px solid red;
+}
