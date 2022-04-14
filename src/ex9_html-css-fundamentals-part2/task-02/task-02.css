@@ -1,0 +1,35 @@
+div>div:nth-child(n + 2) {
+    margin-top: 12px;
+}
+
+fieldset {
+    width: 600px;
+}
+
+.number {
+    width: 60px;
+}
+
+.techno_title {
+    font-weight: 700;
+    color: black;
+}
+
+.profession {
+    padding-left: 10px;
+}
+
+.info {
+    max-width: 320px;
+    min-width: 320px;
+    margin-top: 12px;
+    min-height: 100px;
+}
+
+.password {
+    margin-top: 12px;
+}
+
+.buttons {
+    margin-top: 12px;
+}

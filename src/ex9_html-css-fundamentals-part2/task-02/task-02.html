@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task-02.css">
+</head>
+
+<body>
+    <form action="http://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Personal data</legend>
+
+            <div class="blocks">
+
+                <div class="surname">
+                    <label>Surname</label>
+                    <input type="text" name="surname">
+                </div>
+
+                <div class="first_name">
+                    <label>First name</label>
+                    <input type="text" name="First name">
+                </div>
+
+                <div class="middle_name">
+                    <label>Middle name</label>
+                    <input type="text" name="Middle name">
+                </div>
+
+                <div class="sex">
+                    <label>You are</label>
+                    <input id="male" type="radio" name="male">
+                    <label for="male">male</label>
+                    <input id="female" type="radio" name="female">
+                    <label for="female">female</label>
+                </div>
+
+                <div class="age">
+                    <label>Age</label>
+                    <input class="number" type="number" min="18" max="101" name="Age">
+                </div>
+
+                <div class="country">
+                    <label for="country_name">Country of Residence</label>
+                    <select name="Country of Residence" id="country_name">
+                        <option value="Russia">Russia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="USA">USA</option>
+                        <option value="Poland">Poland</option>
+                        <option value="France">France</option>
+                        <option value="Other country">Other country</option>
+                    </select>
+                </div>
+
+                <div class="city">
+                    <label>City</label>
+                    <input type="checkbox" name="City" value="Ryazan">
+                    Ryazan
+                    <input type="checkbox" name="City" value="Moscow">
+                    Moscow
+                </div>
+
+                <div class="Photography">
+                    <label>Photography</label>
+                    <input type="file" name="file">
+                </div>
+                <hr>
+
+                <div class="title">
+                    <label>Title</label>
+                    <select name="Profession" multiple="multiple">
+                        <option class="techno_title" value="Technologies" disabled>Technologies</option>
+                        <option class="profession" value="Web master">Web master</option>
+                        <option value="Database Administrator" class="profession">Database Administrator</option>
+                        <option value="Computer-aided design" class="profession">Computer-aided design</option>
+                        <option class="techno_title" value="Finance" disabled>Finance</option>
+                        <option class="profession" value="Economic Planning">Economic Planning</option>
+                        <option value="Managment Accounting" class="profession">Managment Accounting</option>
+                        <option value="Budgeting and planning" class="profession">Budgeting and planning</option>
+                    </select>
+                </div>
+
+                <div class="range">
+                    <label>Salary</label>
+                    <input value="Salary" type="range" min="20" max="100" step="1" name="Salary">
+                </div>
+            </div>
+
+            <textarea name="Information" class="info" placeholder="Tell us about yourself..."></textarea>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="contact">
+
+                <div class="Site">
+                    <label>Site</label>
+                    <input type="url" name="Site">
+                </div>
+
+                <div class="Email">
+                    <label>Email</label>
+                    <input type="email" name="Email">
+                </div>
+
+                <div class="Phone">
+                    <label>Phone</label>
+                    <input type="tel" name="Phone">
+                </div>
+            </div>
+        </fieldset>
+
+        <label>Password</label>
+        <input class="password" type="password" name="Password" required="required">
+
+        <div class="buttons">
+            <button type="submit">Отправить</button>
+            <button type="reset">Сбросить</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
