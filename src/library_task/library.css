@@ -48,7 +48,7 @@ nav {
 }
 
 .navigation-item:nth-child(n+2) {
-    margin-left: 18px;
+    margin-left: 12px;
 
 }
 
@@ -113,8 +113,19 @@ main {
 .navigation-item:nth-child(2)::before {
     content: '●';
     color: #1f2635;
+    margin-right: 12px;
 }
 
 .navigation-item:nth-child(2) {
     list-style-type: none;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: #69738c;
+}
+
+.footer-icon-link {
+    text-decoration: none;
+    color: #fff;
 }
