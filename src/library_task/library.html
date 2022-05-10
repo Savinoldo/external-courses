@@ -1,48 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
-    />
-    <link rel="stylesheet" href="library.css" />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <nav>
-        <ul class="navigation">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Help Center</a>
-          </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
+  <link rel="stylesheet" href="library.css" />
+  <title>Document</title>
+</head>
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Our Support</a>
-          </li>
-        </ul>
-        <div class="user">
-          <div class="circle-avatar"></div>
-          <span>John Doe</span>
-          <i class="fa-solid fa-circle-chevron-down"></i>
+<body>
+  <header class="header">
+    <nav>
+      <ul class="navigation">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Help Center</a>
+        </li>
+
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Our Support</a>
+        </li>
+      </ul>
+      <div class="user">
+        <div class="circle-avatar"></div>
+        <span>John Doe</span>
+        <i class="fa-solid fa-circle-chevron-down"></i>
+      </div>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <main>
+      <div class="sidebar">
+        <div class="sidebar_sections">
+          <section class="add_book">
+            <button class="add_book_button"><i class="fa-solid fa-plus"></i>Add a book</button>
+          </section>
+          <section class="sidebar_navigation">
+            <ul class="navigation_items">
+              <li class="navigation_list_item"><a class="navigation_list_item_link" href="#" target="_blank"><i
+                    class="fa-solid fa-book"></i>Now Reading</a></li>
+              <li class="navigation_list_item"><a class="navigation_list_item_link" href="#"><i
+                    class="fa-solid fa-earth-americas"></i>Browse</a></li>
+              <li class="navigation_list_item"><a class="navigation_list_item_link" href="#"><i
+                    class="fa-solid fa-cart-shopping"></i>Buy Books</a></li>
+              <li class="navigation_list_item"><a class="navigation_list_item_link" href="#"><i
+                    class="fa-solid fa-star"></i>Favourite books</a></li>
+              <li class="navigation_list_item"><a class="navigation_list_item_link" href="#"><i
+                    class="fa-solid fa-list"></i>Wishlist</a></li>
+              <li class="navigation_list_item"><a class="navigation_list_item_link" href="#"><i
+                    class="fa-regular fa-clock"></i>History</a></li>
+            </ul>
+          </section>
+          <section class="genres">
+            <ul class="genres_items">
+              <li class="genres_list_item"><a class="genres_list_item_link" href="#">Must Read Titles</a></li>
+              <li class="genres_list_item"><a class="genres_list_item_link" href="#">Best Of List</a></li>
+              <li class="genres_list_item"><a class="genres_list_item_link" href="#">Classic Novels</a></li>
+              <li class="genres_list_item"><a class="genres_list_item_link" href="#">Non Fiction</a></li>
+            </ul>
+          </section>
+          <section class="action_history"></section>
         </div>
-      </nav>
-    </header>
-    <main></main>
+      </div>
+
+      <div class="main-head">
+
+        <span class="browse-available-books">Browse Available Books</span>
+        <div class="main-head-container">
+          <nav class="book-filter">
+            <ul class="book-filter-list">
+              <li class="book-filter-list-item"><a href="#" class="book-filter-link">All Books</li>
+              <li class="book-filter-list-item"><a href="#" class="book-filter-link">Most Recent</a></li>
+              <li class="book-filter-list-item"><a href="#" class="book-filter-link">Most Popular</a></li>
+              <li class="book-filter-list-item"><a href="#" class="book-filter-link">Free Books</a></li>
+            </ul>
+          </nav>
+
+          <div class="search-form">
+            <form class="search-field">
+              <input class="search-text" type="text" placeholder="Enter Keywords">
+              <button class="search-button" type="submit"></button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="book-container">
+        <div class="book">
+          <div class="book-image">
+          </div>
+          <div class="description">
+            <span class="book-name">
+              Fruits of the earth</span>
+            <span class="author">
+              by Knut Gamson</span>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="book-image-1">
+          </div>
+          <div class="description">
+            <span class="book-name">
+              Fruits of the earth</span>
+            <span class="author">
+              by Knut Gamson</span>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="book-image-2">
+          </div>
+          <div class="description">
+            <span class="book-name">
+              Fruits of the earth</span>
+            <span class="author">
+              by Knut Gamson</span>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="book-image-3">
+          </div>
+          <div class="description">
+            <span class="book-name">
+              Fruits of the earth</span>
+            <span class="author">
+              by Knut Gamson</span>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="book-image-4">
+          </div>
+          <div class="description">
+            <span class="book-name">
+              Fruits of the earth</span>
+            <span class="author">
+              by Knut Gamson</span>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+        <div class="book">
+          <div class="book-image-5">
+          </div>
+          <div class="description">
+            <span class="book-name">
+              Fruits of the earth</span>
+            <span class="author">
+              by Knut Gamson</span>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+
+
+    </main>
     <footer class="footer">
       <div class="footer-items">
         <div class="questions">
-          <a class="footer-icon-link" href="#"
-            ><i class="fa-regular fa-circle-question"></i
-          ></a>
+          <a class="footer-icon-link" href="#"><i class="fa-regular fa-circle-question"></i></a>
         </div>
         <div class="settings">
           <a class="footer-icon-link" href="#"><i class="fa fa-gear"></i></a>
         </div>
       </div>
     </footer>
-  </body>
+  </div>
+
+
+
+</body>
+
 </html>
