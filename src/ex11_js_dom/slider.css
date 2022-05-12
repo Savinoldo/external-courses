@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.slider {
+    margin: 20px;
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.image {
+    width: 800px;
+    height: 600px;
+    background: url('1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.previous-image,
+.next-image {
+    background-color: gray;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    width: 50px;
+}
+
+.previous-image:hover,
+.next-image:hover {
+    background-color: rgb(144, 46, 209)
+}
+
+.previous-image::after{
+    content:'◀';
+    cursor: pointer;
+}
+
+.next-image::after{
+    content:'▶';
+    cursor: pointer;
+}
